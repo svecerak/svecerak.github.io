@@ -601,7 +601,7 @@ body {
     /* padding-bottom: 12px; adds blank space between title and underline */
     /* border-color: rgb(172, 10, 10); */
     /* border-bottom-width: 3px; */
-    text-decoration: none;
+    /* text-decoration: none; */
 
     font-size: 48px;
     /* text-shadow: 2px 2px 1px rgb(2, 2, 2); */
@@ -610,7 +610,7 @@ body {
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-style: normal;
+    /* font-style: normal; */
 
     
 }
@@ -618,7 +618,7 @@ body {
 
 /************** PANEL 1 ***********/
 .panelFirst {
-    background-image: url('https://uwoca-my.sharepoint.com/personal/svecerak_uwo_ca/Documents/CSS/whiteEvenBigger.png'); 
+    background-image: url('../images/whiteEvenBigger.png'); 
     /* padding: 10%; */
     /* background:#FAFAFA; */
     background-size: 100% 100%;
@@ -666,7 +666,7 @@ body {
 /*************** PANEL 2 **************/
 .panelSecond {
     /* background-color: #F3F3F3; */
-    background-image: url('https://uwoca-my.sharepoint.com/personal/svecerak_uwo_ca/Documents/CSS/greyEvenBigger.png'); 
+    background-image: url('../images/greyEvenBigger.png'); 
     /* background-image: url(https://ibb.co/FgT42CF); */
 
     
@@ -707,12 +707,8 @@ body {
 /************ PANEL 3 ************/
 
 .panelThird {
-    /* background: url(http://omarhachem.com/images/cube-shaped-objects-scattered-on-ground.jpg); */
-    
     margin-top: -50px;
     padding: 60px;
-
-
     color: #F3F3F3;
     background:#FAFAFA;
     
@@ -722,14 +718,11 @@ body {
     color:#1D1D1F;
     text-decoration: none;
     font-family: 'Hind Guntur', sans-serif;
+    text-align: center;
+    letter-spacing: 10px;
+
 
 }
-
-/* 
-.panelThird p {
-    text-align: center;
-    color: black;
-} */
 
 
 /********* PANEL 4 *************** */
@@ -1117,9 +1110,10 @@ body {
     
 .hero h1 {
     /* Text styles */
-    font-size: 2.5em;
+    font-size: 2.0em;
     padding: 10px;
     padding-bottom: 2px;
+    border-bottom: none;
 
 }
 
@@ -1184,6 +1178,10 @@ body {
         float: right;
     }
 
+
+    .burger3 {
+        margin-bottom: -70px;
+    }
     .nav-active {
         transform: translateX(0%);
     }
@@ -1238,7 +1236,7 @@ body {
 
   
     .panelFirst {
-        background-image: url('https://uwoca-my.sharepoint.com/personal/svecerak_uwo_ca/Documents/CSS/whiteLarger.png');
+        background-image: url('../images/whiteLarger.png');
         /* padding-left: 10%;
         padding-top: 10%; 
         padding-right: 10%; */
@@ -1261,14 +1259,21 @@ body {
     }
 
     .panelSecond {
+        /* padding-top: -100px; */
         padding: 10%;
-        background-image: url('https://uwoca-my.sharepoint.com/personal/svecerak_uwo_ca/Documents/CSS/greyLarger.png');
-        padding-bottom: 230px;
+        background-image: url('../images/greyLarger.png');
+        /* padding-bottom: 230px; */
     }
 
+    .panelThird h3 {
+        color:#1D1D1F;
+        text-decoration: none;
+        font-family: 'Hind Guntur', sans-serif;
+        text-align: center;
+    
+    }
+    
 
-
- 
     .panelFourth {
         height: auto;
         padding: 40px;
