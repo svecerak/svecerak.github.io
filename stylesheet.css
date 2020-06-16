@@ -1265,6 +1265,13 @@ body {
         /* padding-bottom: 230px; */
     }
 
+    .panelThird {
+        margin-top: 0px;
+        padding: 10px;
+        color: #F3F3F3;
+        background:#FAFAFA;
+        
+    }
     .panelThird h3 {
         color:#1D1D1F;
         text-decoration: none;
