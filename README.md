@@ -5,5 +5,5 @@ Without this fundamental understanding of the basics, I wouldn't be able to appr
 
 In the future, I plan to redesign and rewrite my portfolio leveraging some of the new technologies and design principles I've since learned.
 
-svecerak.github.io
+www.svecerak.github.io
 
