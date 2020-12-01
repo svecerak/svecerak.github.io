@@ -4,3 +4,6 @@ First iteration of my personal website showcasing my side projects. This project
 Without this fundamental understanding of the basics, I wouldn't be able to appreciate and fully understand the pros and cons of using a framework versus the language itself. 
 
 In the future, I plan to redesign and rewrite my portfolio leveraging some of the new technologies and design principles I've since learned.
+
+svecerak.github.io
+
