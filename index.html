@@ -1,373 +1,180 @@
-
-
-
-
 <!DOCTYPE html>
 <html scroll-behavior: sm>
-
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Sasa Vecerak</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="./styles/stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-
-  <body>
-    <header> 
-      <div class="container"> 
-        <nav class="nav">
-          <ul class="nav-list">
-              <li><a href='#' class="nav-link">Home </a></li>
-              <li><a href='#firstPanel' class="nav-link">About </a></li>            
-              <li><a href='#secondPanel' class="nav-link">Skills </a></li>
-              <li><a href='#thirdPanel' class="nav-link">Projects </a></li>
-          </ul>
-          <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-        </nav>
+<body>
+  <header> 
+    <div class="container"> 
+      <nav class="nav">
+        <ul class="nav-list">
+            <li><a href='#' class="nav-link">Home </a></li>
+            <li><a href='#firstPanel' class="nav-link">About </a></li>            
+            <li><a href='#secondPanel' class="nav-link">Skills </a></li>
+            <li><a href='#thirdPanel' class="nav-link">Projects </a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Sasa  Vecerak</h1>
+      <h2>Web Portfolio</h2>
+      <div class="iconwrap"> 
+        <a title="Contact Me" href="https://www.linkedin.com" class="contact-iconT" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a title="View Github" href="https://www.github.com/svecerak" class="contact-iconT" target="_blank"><i class="fab fa-github"></i></a>
+        <a title="Email Me" href="mailto:sasavecerak@gmail.com" class="contact-iconT" target="_blank"><i class="fas fa-envelope-square"></i></a>
       </div>
-    </header>
-
-    <section class="hero">
-        <div class="hero-inner">
-            <h1>Sasa  Vecerak</h1>
-            <h2>Web Portfolio</h2>
-            <div class="iconwrap"> 
-                
-              <a title="Contact Me" href="https://www.linkedin.com" class="contact-iconT" target="_blank">
-                  <i class="fab fa-linkedin-in"></i></a>
-              <a title="View Github" href="https://www.github.com" class="contact-iconT" target="_blank"><i class="fab fa-github"></i></a>
-              <a title="Email Me" href="mailto:someone@yoursite.com" class="contact-iconT" target="_blank"><i class="fas fa-envelope-square"></i></a>
-          </div>
+    </div>
+  </section>
+  <div class="panels">
+    <div id="firstPanel" class="panelFirst">
+      <h3 class="slide-bottom" >About</h3>
+      <div class="burger2">
+        <div class="line1"></div>
+      </div>
+      <div class="isme"> 
+        <img class="headshot" src="https://i.ibb.co/hB3g9bn/bad-res-headshot.jpg">
+      </div>
+      <div class="the5" >
+        <h7> Hi, I'm Sasa, a third-year Computer Science student based at Western University -- I'm an avid learner who enjoys solving problems and writing clean, scalable code. I'm aspiring to become a full-stack developer!</h7>
+      </div>
+      <div class="paragraphs"> 
+          <p><i class="fas fa-angle-right"></i> Having graduated from <span class="highlights"> Western University</span> with a B.A. in Finance and a Minor in History, I joined the workforce and accumulated experience in a variety of fields like Marketing and Audit. Today, I'm a multi-faceted second-degree student pursuing a <span class="highlights"> Computer Science B.Sc.</span> from my alma mater. </p>
+          <p><i class="fas fa-angle-right"></i> Beyond the scope of my academic pursuits, I'm passionate about travel and adventure, always seeking to immerse myself in new cultures and cuisines. With a list of 20 countries and growing, I look forward to adding to my experiences and meeting new and intriguing people! </p>
+          <p><i class="fas fa-angle-right"></i> Currently expecting to graduate in December 2021, with an <span class="highlights"> ~85% average.</span></p>
+      </div>
+    </div>
+    <div id="secondPanel" class ="panelSecond">
+      <h3>Skills</h3>
+        <div class="the5" >
+          <h7>I have experience with the LAMP stack, having used it primarily for my personal projects listed below and other CRUD apps. Proficient with SQL, writing SQL queries and RDBMS design principles. I'm currently focused on learning MVC architecture, as I'm learning Laravel, and intend to shift my focus on Vue.js shortly thereafter.</h7>
         </div>
-    </section>
- 
-
-    <div class="panels">
-       
-        <div id="firstPanel" class="panelFirst">
-          
-            <h3 class="slide-bottom" >About</h3>
-            
-              <div class="burger2">
-                <div class="line1"></div>
-              </div>
-           
-                <div class="isme"> <img class="headshot"  
-                  src='../images/profile.me.jpg'></div>
-                    
-                  
-                  
-                  <div class="the5" > <h7> Hi, I'm Sasa, a junior Computer Science student based at Western University -- I enjoy blending problem solving and creativity. </h7></div>
-
-                    <div class="paragraphs"> 
-
-                        <p><i class="fas fa-angle-right"></i> Having graduated from <span class="highlights"> Western University</span> with a B.A. in Finance, I joined the workforce and accumulated experience in a variety of fields like Marketing and Audit. Today, I'm a multi-faceted second-degree student pursuing a <span class="highlights"> Computer Science B.Sc.</span> from my alma mater. </p>
-                        
-                        <p><i class="fas fa-angle-right"></i> Beyond the scope of my academic pursuits, I'm passionate about travel and adventure, always seeking to immerse myself in new cultures and cuisines. With a list of 20 countries and growing, I look forward to adding to my experiences and meeting new and intriguing people! </p>
-
-                        <p><i class="fas fa-angle-right"></i>Expected to graduate in 2022, with an <span class="highlights"> 83% average.</span></p>
-                    </div>
+        <div class="burger3">
+          <div class="line1"></div>
         </div>
-
-        <div id="secondPanel" class ="panelSecond">
-          <h3>Skills</h3>
-            <div class="burger3">
-              <div class="line1"></div>
-            </div>
-            <div class="skill_wrapper">
-              <div class="s s1">
-                  <h5> Language</h5>
-                  <p>Java</p>
-                  <p>Python</p>
-                  <p>C</p>
-                  <p>JavaScript</p>
-                  <p>BASH</p>
-              </div>
-              <div class="s s2">
-                <h5> Framework</h5>
-                <p> Node.js </p>
-                <p>Swagger</p>
-                <p>Cordova</p>
-                <p>Vue</p>
-                <p>React</p>
-                <p>AngularJS</p>
-                <p>Bootstrap</p>
-              </div>
-              <div class="s s3">
-                <h5> Tools</h5>
-                <p> GitHub 
-                <p> Git</p>    
-                <p> SourceTree</p>                 
-              </div>
-              <div class="s s4">
-                <h5> Database</h5>
-                <p> MySQL </p>
-                <p> MongoDB</p>  
-                <p> Firebase</p> 
-              </div>
+        <div class="skill_wrapper">
+          <div class="s s1">
+            <h5>Language</h5>
+            <p>Java</p>
+            <p>Python</p>
+            <p>PHP</p>
+            <p>SQL</p>
+            <p>HTML5</p>
+            <p>CSS</p>
           </div>
-        </div>
-
-
-
-        <div id="thirdPanel" class ="panelThird">
-          <h3>Projects</h3>
-
-          <div class="burger2">
-            <div class="line1"></div>
+          <div class="s s2">
+            <h5>Framework</h5>
+            <p>Tailwind CSS</p>
+            <!-- <p>Laravel</p> -->
+            <p>Bootstrap4</p>
           </div>
-          <!-- <p> "Here are some of my recent projects Ive been working on!"</p> -->
-
-          <div class="main">
-              <!-- <h1>Responsive Card Grid Layout</h1> -->
-              <ul class="cards">
-
-   
-                <li class="cards_item">
-                  <div class="card">
-                    <div class="card_image"><img src="https://picsum.photos/500/300/?image=23"></div>
-                    <div class="card_content">
-                      <h2 class="card_title"> NxN Tic-Tac-Toe</h2>
-                      <p class="card_text">Scalable Tic-Tac-Toe game where the user plays against a computer that has the ability to keep track of possible playing algorithms.</p>
-                      <!-- <button class="btn card_btn">Read More</button> -->
-                    </div>
-                    <div class="languagesX"> Java Eclipse</div>
-
-                    <div class="iconsXX"> 
-                      <a title="Github" href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
-                      <a title ="Live Demo" href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-           
-                  </div>
-                  
-                </li>
-
-
-
-
-
-
-
-                <li class="cards_item">
-                  <div class="card">
-                    <div class="card_image"><img src="https://picsum.photos/500/300/?image=1"></div>
-                    <div class="card_content">
-                      <h2 class="card_title">Twitter Sentiment</h2>
-                      <p class="card_text">Performed aggregated sentiment analysis on user tweet data, to determine which timezone in the continental U.S. is the happiest.</p>
-                    
-                    </div>
-                    <div class="languagesX"> Python PyCharm </div>
-                    <div class="iconsXX"> 
-                      <a title="Github" href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
-                      <a title ="Live Demo" href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-           
-                  </div>
-                  
-                </li>
-
-                
-
-             <li class="cards_item">
-                  <div class="card">
-                    <div class="card_image"><img src="https://picsum.photos/500/300/?image=24"></div>
-                    <div class="card_content">
-                      <h2 class="card_title">Maze Solver</h2>
-                      <p class="card_text">Calculates the shortest path using a greedy algorithm. Calculates the shortest path using a greedy algorithm.</p>
-
-                    </div>
-                    <div class="languagesX"> Java Eclipse</div>
-
-                    <div class="iconsXX"> 
-                      <a title="Github" href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
-                      <a title ="Live Demo" href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-           
-                  </div>
-                  
+          <div class="s s3">
+            <h5>Tools</h5>
+            <p>Git</p>    
+            <p>XAMPP</p>          
+            <p>Eclipse</p> 
+            <p>PyCharm</p> 
+            <p>VS Code</p>   
+          </div>
+          <div class="s s4">
+            <h5>Database</h5>
+            <p>MySQL</p>
+          </div>
+      </div>
+    </div>
+    <div id="thirdPanel" class ="panelThird">
+      <h3 class="slide-bottom">Projects</h3>
+      <div class="burger2">
+        <div class="line1"></div>
+      </div>
+      <div class="main">
+          <ul class="cards">
+              <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="./images/replext_example2.jpg"></div>
+                <div class="card_content">
+                  <h2 class="card_title">RePlext</h2>
+                  <p class="card_text">A request and discover web platform catering to Plex media server users. Powered by TMDb API, users can register an account, search for movies and tv shows, and add them to a MySQL database for tracking requests.</p>
+                  <p class="card_text">*Currently rebuilding this project in Laravel with a focus on learning MVC architecture.</p>
+                </div>
+                <div class="languagesX">HTML5 PHP MySQL TailwindCSS</div>
+                <div class="iconsXX"> 
+                  <a title="Github" href="https://github.com/svecerak/RePlext" target="_blank"><i class="fab fa-github"></i></a>
+                  <a title ="Live Demo" href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
             </li>
-
-                <li class="cards_item">
-                  <div class="card">
-                    <div class="card_image"><img src="https://picsum.photos/500/300/?image=25"></div>
-                    <div class="card_content">
-                      <h2 class="card_title">Basic Weather App</h2>
-                      <p class="card_text">Performed aggregated sentiment analysis on user tweet data, to determine which timezone in the continental U.S. is the happiest.</p>
-                    </div>
-                    <div class="languagesX"> HTML CSS Javascript React</div>
-
-                    <div class="iconsXX"> 
-                      <a title="Github" href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
-                      <a title ="Live Demo" href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                  </div>
-                </li>
-
-                <li class="cards_item">
-                  <div class="card">
-                    <div class="card_image"><img src="https://picsum.photos/500/300/?image=27"></div>
-                    <div class="card_content">
-                      <h2 class="card_title">CRUD App</h2>
-                      <p class="card_text">Performed aggregated sentiment analysis on user tweet data, to determine which timezone in the continental U.S. is the happiest.</p>
-                    </div>
-                    <div class="languagesX"> Node Express MongoDB React</div>
-
-                    <div class="iconsXX"> 
-                      <a title="Github" href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
-                      <a title ="Live Demo" href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                  </div>
-                </li>
-
-                <li class="cards_item">
-                  <div class="card">
-                    <div class="card_image"><img src="https://picsum.photos/500/300/?image=29"></div>
-                    <div class="card_content">
-                      <h2 class="card_title">Twitter Clone</h2>
-                      <p class="card_text">Performed aggregated sentiment analysis on user tweet data, to determine which timezone in the continental U.S. is the yes.</p>
-                    </div>
-                    <div class="languagesX"> HTML CSS Javascript</div>
-
-                    <div class="iconsXX"> 
-                      <a title="Github" href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
-                      <a title ="Live Demo" href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                  </div>
-                </li>
-
-                
-  
-                <!-- <div class="card">
-                  <div class="image">
-                    <img src="http://1.bp.blogspot.com/-EhPr4LXcywE/Udr594sPHTI/AAAAAAAAAJ4/Tv4y4CBLTPM/s400/Cristina-Otero-2.jpg"/>
-                  </div>
-                  <div class="details">
-                    <div class="center">
-                      <h1>Someone famous<br><span>team leader</span></h1>
-                      <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
-                      <ul>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div> -->
-
-
-              </ul>
-            </div>
-
-
-      </div>
-
-
-
-
-        <!-- <div id="fourthPanel" class ="panelFourth">
-            <h3 class="slide-bottom" >Get In Touch</h3>
-            <p> I'm always interested in new and exciting opportunities! Whether you have a question or just want to say hi, don't hesitate to reach out.</p>
-            <div class="icon-container"> 
-                
-                <a title="Contact Me" href="https://www.linkedin.com" class="contact-icon" target="_blank">
-                    <i class="fab fa-linkedin-in"></i></a>
-               
-                <a title="View Github" href="https://www.github.com" class="contact-icon" target="_blank"><i class="fab fa-github"></i></a>
-                
-                <a title="Email Me" href="mailto:someone@yoursite.com" class="contact-icon" target="_blank"><i class="fas fa-envelope-square"></i></a>
-
-            </div>
-        </div> -->
-        <div class="scene scene--card">
-          <div class="notcard">
-            <!-- <div class="card__face card__face--front">front</div> -->
-            <div class="card__face card__face--back">
-              <!-- <div class="wrapperX"> 
-                              <h2> back</h2>
-
-                <a title="Contact Me" href="https://www.linkedin.com" class="contactX" target="_blank">
-                    <i class="fab fa-linkedin-in"></i></a>
-               
-                <a title="View Github" href="https://www.github.com" class="contactX" target="_blank"><i class="fab fa-github"></i></a>
-                
-                <a title="Email Me" href="mailto:someone@yoursite.com" class="contactX" target="_blank"><i class="fas fa-envelope-square"></i></a>
-        
-            </div> -->
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="./images/ttt.gif"></div>
+                <div class="card_content">
+                  <h2 class="card_title"> NxN Tic-Tac-Toe</h2>
+                  <p class="card_text">Scalable Tic-Tac-Toe game where the user plays against a computer that has the ability to keep track of possible playing algorithms.</p>
+                </div>
+                <div class="languagesX">Java Eclipse</div>
+                <div class="iconsXX"> 
+                  <a title="Github" href="https://github.com/svecerak/NxN-Tic-Tac-Toe" target="_blank"><i class="fab fa-github"></i></a>
+                  <!-- <a title ="Live Demo" href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
               </div>
-            </div>
-          </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="./images/balancer.jpg"></div>
+                <div class="card_content">
+                  <h2 class="card_title">Web Load Balancer</h2>
+                  <p class="card_text">Simplified load balancer with a client-server, using TCP socket programming in python. Done entirely using HTTP redirection as an academic exercise.</p>
+                </div>
+                <div class="languagesX"> Python PyCharm</div>
+                <div class="iconsXX"> 
+                  <a title="Github" href="https://github.com/svecerak/Web-Load-Balancer" target="_blank"><i class="fab fa-github"></i></a>
+                  <!-- <a title ="Live Demo" href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
-
-
-      
-
-      <script src="https://kit.fontawesome.com/57e4799085.js"></script>
-
-
-
- 
-
-
-        <!-- <div class="fontawesome-icons">
-            <a title="View Github" href="https://www.github.com" class="contact-icon" target="_blank"><i class="fab fa-github"></i></a>  
-        </div> -->
-    <!-- </header> -->
-
-
-      <script src="app.js"> </script>
-
-      <button onclick="topFunction()" id="myBtn" title="Go to top">    <i class="fas fa-caret-up"  ></i></button>
-
-      <script>
-        window.addEventListener('scroll', function () {
-            let header = document.querySelector('header');
-            let windowPosition = window.scrollY > 0;
-            header.classList.toggle('scrolling-active', windowPosition);
-        })
-      </script>
-
-
-
-
-    <footer>
-      <div class="icon-container">        
-          <a title="Contact Me" href="https://www.linkedin.com" class="contact-icon" target="_blank"> 
-              <i class="fab fa-linkedin-in"></i></a>
-          <a title="View Github" href="https://www.github.com" class="contact-icon" target="_blank"><i class="fab fa-github"></i></a>
-          <a title="Email Me" href="mailto:someone@yoursite.com" class="contact-icon" target="_blank"><i class="fas fa-envelope-square"></i></a>
-      </div>
-
-      <!-- <div class="icon-container2">        
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/57e4799085.js"></script>
+  <script src="./scripts/app.js"> </script>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">    <i class="fas fa-caret-up"  ></i></button>
+  <script>
+    window.addEventListener('scroll', function () {
+        let header = document.querySelector('header');
+        let windowPosition = window.scrollY > 0;
+        header.classList.toggle('scrolling-active', windowPosition);
+    })
+  </script>
+  <footer>
+    <div class="icon-container">        
         <a title="Contact Me" href="https://www.linkedin.com" class="contact-icon" target="_blank"> 
             <i class="fab fa-linkedin-in"></i></a>
         <a title="View Github" href="https://www.github.com" class="contact-icon" target="_blank"><i class="fab fa-github"></i></a>
         <a title="Email Me" href="mailto:someone@yoursite.com" class="contact-icon" target="_blank"><i class="fas fa-envelope-square"></i></a>
-      </div> -->
-
-      <div class="end-container"> 
-        <p> @2020 - Designed & Built by Sasa Vecerak</p>
-      </div>
-    </footer>
-  </body>
+    </div>
+    <div class="end-container"> 
+      <p> @2020 - Designed & Built by Sasa Vecerak</p>
+    </div>
+  </footer>
+</body>
 </html>
