@@ -526,7 +526,7 @@ body {
 
 /* CONTAINER FOR ALL THE CARDS */
   .main {
-    max-width: 1200px; /* prevents cards from getting any wider than this, ie UW*/
+    max-width: 1500px; /* prevents cards from getting any wider than this, ie UW*/
     margin: 0 auto; /*centers the cards in middle of window*/
   }
 
